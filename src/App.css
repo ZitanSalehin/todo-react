@@ -1,0 +1,51 @@
+.container{
+  width: 500px;
+  height: 700px;
+  background-color: rgb(153, 235, 235);
+  border-radius: 20px;
+  margin: 30px auto ;
+}
+.app-wrapper{
+  text-align: center;
+  padding-top: 25px;font-family: cursive;
+  font-size: 30px;
+  color: rgb(238, 238, 238);
+  
+}
+
+.task-input{
+  background-color: lightgoldenrodyellow;
+  width: 250px;
+  height: 30px;
+  border-radius: 15px;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-family: cursive;
+}
+.task-input:hover{
+  background-color: lightblue;
+  
+}
+
+.button-add{
+  background-color: rgb(217, 245, 255);
+  width: 60px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: cursive;
+}
+.button-add:hover{
+  background-color: rgb(255, 219, 219);
+}
+
+.list-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0 100px;
+  color: brown;
+  
+}
